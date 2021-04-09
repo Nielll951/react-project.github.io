@@ -1,5 +1,10 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import React from "react";
+import ReactDOM from "react-dom";
+
+import "./reset.css"
+import "./grid.css"
+import "./style.css"
+import logo from "./images/logo.png";
 
 const App = () => {
 	return (
@@ -9,7 +14,7 @@ const App = () => {
 					<div class="row header-row">
 						<div class="logo col-xs-6 col-md-2">
 							<a href="#" class="logo-link">
-								<img src="images/logo.png" alt="logo" class="img-fluid"/>
+								<img src={logo} alt="logo" class="img-fluid"/>
 							</a>
 						</div>
 						<div class="menu col-xs-6 col-md-8">
@@ -519,7 +524,7 @@ const App = () => {
 				</section>
 				<section class="section section--no-pt section--no-pb">
 					<div class="map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325518.68780316407!2d30.252511957059642!3d50.4016990487754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1617629358138!5m2!1sru!2sua" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325518.68780316407!2d30.252511957059642!3d50.4016990487754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1617629358138!5m2!1sru!2sua" width="100%" height="300px" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
 					</div>
 				</section>
 			</main>
