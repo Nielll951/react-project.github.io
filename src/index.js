@@ -6,9 +6,8 @@ import "./grid.css"
 import "./style.css"
 import logo from "./images/logo.png";
 
-const App = () => {
+const Header = () => {
 	return (
-		<>
 			<header class="header">
 				<div class="container-fluid">
 					<div class="row header-row">
@@ -52,6 +51,11 @@ const App = () => {
 					</div>
 				</div>
     		</header>
+	)
+}
+
+const Main = () => {
+	return (
 			<main class="main">
 				<section class="slider pos-rel">
 					<div class="container">
@@ -528,13 +532,18 @@ const App = () => {
 					</div>
 				</section>
 			</main>
+	)
+}
+
+const Footer = () => {
+	return (
 			<footer class="footer">
 				<div class="container">
 					<div class="row row-footer">
 						<div class="col-xs-12 col-s-auto">
 							<div class="footer__item">
 								<a href="#" class="site-logo">
-									<img src="images/logo.png" alt="logo" class="img-fluid"/>
+									<img src={logo} alt="logo" class="img-fluid"/>
 								</a>
 							</div>
 						</div>
@@ -614,6 +623,15 @@ const App = () => {
 					</div>
 				</div>
 			</footer>
+	)
+}
+
+const App = () => {
+	return (
+		<>
+			<Header/>	
+			<Main/>
+			<Footer/>
 		</>
 	)	
 } 
