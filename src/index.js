@@ -12,7 +12,7 @@ const Header = () => {
 				<div className="container-fluid">
 					<div className="row header-row">
 						<div className="logo col-xs-6 col-md-2">
-							<a href="#" className="logo-link">
+							<a href="/" className="logo-link">
 								<img src={logo} alt="logo" className="img-fluid"/>
 							</a>
 						</div>
@@ -20,22 +20,22 @@ const Header = () => {
 							<nav className="navigation hidden-menu">
 								<ul className="menu-list">
 									<li className="menu-item">
-										<a href="#" className="menu-link menu-link-active">Home</a>
+										<a href="/" className="menu-link menu-link-active">Home</a>
 									</li>
 									<li className="menu-item">
-										<a href="#" className="menu-link">About</a>
+										<a href="/" className="menu-link">About</a>
 									</li>
 									<li className="menu-item">
-										<a href="#" className="menu-link">Gallery</a>
+										<a href="/" className="menu-link">Gallery</a>
 									</li>
 									<li className="menu-item">
-										<a href="#" className="menu-link">Reviews</a>
+										<a href="/" className="menu-link">Reviews</a>
 									</li>
 									<li className="menu-item">
-										<a href="#" className="menu-link">Blog</a>
+										<a href="/" className="menu-link">Blog</a>
 									</li>
 									<li className="menu-item">
-										<a href="#" className="menu-link">Contacts</a>
+										<a href="/" className="menu-link">Contacts</a>
 									</li>
 								</ul>
 							</nav>
@@ -46,7 +46,7 @@ const Header = () => {
 							</div>
 						</div>
 						<div className="header__btn col-md-2">
-							<a href="" className="btn get-in-touch-btn">Get in touch</a>
+							<a href="/" className="btn get-in-touch-btn">Get in touch</a>
 						</div>
 					</div>
 				</div>
@@ -67,7 +67,7 @@ const Main = () => {
 									<p className="text-center">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English
 									</p>
 									<div className="slider__btn">
-										<a href="#" className=" btn btn-discover">discover</a>
+										<a href="/" className=" btn btn-discover">discover</a>
 									</div>
 									<div className="slider__btn_space-below"></div>
 								</div>
@@ -133,7 +133,7 @@ const Main = () => {
 									</h2>
 								</div>
 								<div className="about__btn-container">
-									<a href="" className="about__btn hover">More about</a>
+									<a href="/" className="about__btn hover">More about</a>
 								</div>
 							</div>
 							<div className="col-xs-12 col-sm-12 col-md-4">
@@ -250,7 +250,7 @@ const Main = () => {
 														<p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looksreasonable. The generated Lorem Ipsum is therefore always free from repetition injected humour, ornon-characteristic words etc.
 														</p>
 														<p>
-															<a className="custom-btn custom-btn--medium hover" href="#">all products</a>
+															<a className="custom-btn custom-btn--medium hover" href="/">all products</a>
 														</p>
 													</div>
 												</div>
@@ -265,7 +265,7 @@ const Main = () => {
 											<div className="__content">
 												<h3 className="__title">fruits</h3>
 											</div>
-											<a href="#" className="__link"></a>
+											<a href="/" className="__link">{null}</a>
 										</div>
 									</div>
 									<div className="col-xs-12 col-sm-4 col-md-4 col-lg-3">
@@ -276,7 +276,7 @@ const Main = () => {
 											<div className="__content">
 												<h3 className="__title">vegetables</h3>
 											</div>
-											<a href="#" className="__link"></a>
+											<a href="/" className="__link"> </a>
 										</div>
 									</div>
 									<div className="col-xs-12 col-sm-4 col-md-4 col-lg-3">
@@ -287,7 +287,7 @@ const Main = () => {
 											<div className="__content">
 												<h3 className="__title">livestock</h3>
 											</div>
-											<a href="#" className="__link"></a>
+											<a href="/" className="__link"> </a>
 										</div>
 									</div>
 									<div className="col-xs-12 col-sm-4 col-md-4 col-lg-3">
@@ -298,7 +298,7 @@ const Main = () => {
 											<div className="__content">
 												<h3 className="__title">sunflowers</h3>
 											</div>
-											<a href="#" className="__link"></a>
+											<a href="/" className="__link"> </a>
 										</div>
 									</div>
 									<div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
@@ -310,7 +310,7 @@ const Main = () => {
 													products
 												</h2>
 											</div>
-											<a className="__link" href="#"></a>
+											<a className="__link" href="/"> </a>
 										</div>
 									</div>
 									<div className="col-xs-12 col-sm-7 col-md-7 col-lg-6 offset-lg-3">
@@ -321,7 +321,7 @@ const Main = () => {
 											<div className="__content">
 												<h3 className="__title">wheat</h3>
 											</div>
-											<a href="#" className="__link"></a>
+											<a href="/" className="__link"> </a>
 										</div>
 									</div>
 									<div className="col-xs-12 col-sm-5 col-md-5 col-lg-3">
@@ -332,7 +332,7 @@ const Main = () => {
 											<div className="__content">
 												<h3 className="__title">spices</h3>
 											</div>
-											<a href="#" className="__link"></a>
+											<a href="/" className="__link"> </a>
 										</div>
 									</div>
 								</div>
@@ -377,7 +377,7 @@ const Main = () => {
 													</h2>
 													<p>The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.</p>
 													<p>
-														<a className="custom-btn custom-btn--medium hover" href="#">Buy</a>
+														<a className="custom-btn custom-btn--medium hover" href="/">Buy</a>
 													</p>
 												</div>
 											</div>
@@ -406,15 +406,15 @@ const Main = () => {
 									</div>
 									<div className="post-item-content">
 										<p className="category">
-											<a href="#">ORGANIC FOOD/TIPS & GUIDES</a>
+											<a href="/">ORGANIC FOOD/TIPS & GUIDES</a>
 										</p>
 										<h3 className="post-title">
-											<a href="#">Tips for Ripening your Fruit</a>
+											<a href="/">Tips for Ripening your Fruit</a>
 										</h3>
 										<p className="post-text">
 											The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.
 										</p>
-										<a className="custom-btn custom-btn--medium post-btn hover" href="#">Read more</a>
+										<a className="custom-btn custom-btn--medium post-btn hover" href="/">Read more</a>
 									</div>
 									<span className="__date-post">
 										<strong>07</strong>
@@ -429,15 +429,15 @@ const Main = () => {
 									</div>
 									<div className="post-item-content">
 										<p className="category">
-											<a href="#">ORGANIC FOOD/TIPS & GUIDES</a>
+											<a href="/">ORGANIC FOOD/TIPS & GUIDES</a>
 										</p>
 										<h3 className="post-title">
-											<a href="#">Tips for Ripening your Fruit</a>
+											<a href="/">Tips for Ripening your Fruit</a>
 										</h3>
 										<p className="post-text">
 											The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.
 										</p>
-										<a className="custom-btn custom-btn--medium post-btn hover" href="#">Read more</a>
+										<a className="custom-btn custom-btn--medium post-btn hover" href="/">Read more</a>
 									</div>
 									<span className="__date-post">
 										<strong>03</strong>
@@ -452,15 +452,15 @@ const Main = () => {
 									</div>
 									<div className="post-item-content">
 										<p className="category">
-											<a href="#">ORGANIC FOOD/TIPS & GUIDES</a>
+											<a href="/">ORGANIC FOOD/TIPS & GUIDES</a>
 										</p>
 										<h3 className="post-title">
-											<a href="#">Tips for Ripening your Fruit</a>
+											<a href="/">Tips for Ripening your Fruit</a>
 										</h3>
 										<p className="post-text">
 											The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.
 										</p>
-										<a className="custom-btn custom-btn--medium post-btn hover" href="#">Read more</a>
+										<a className="custom-btn custom-btn--medium post-btn hover" href="/">Read more</a>
 									</div>
 									<span className="__date-post">
 										<strong>25</strong>
@@ -521,14 +521,14 @@ const Main = () => {
 							<div className="input-wrp">
 								<textarea className="textfield" name="message" placeholder="Comments"></textarea>
 							</div>
-							<button className="custom-btn custom-btn--medium wide" type="submit" role="button">Send</button>
+							<button className="custom-btn custom-btn--medium wide" type="submit">Send</button>
 							<div className="form__note"></div>
 						</form>
 					</div>
 				</section>
 				<section className="section section--no-pt section--no-pb">
 					<div className="map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325518.68780316407!2d30.252511957059642!3d50.4016990487754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1617629358138!5m2!1sru!2sua" width="100%" height="300px" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>
+						<iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325518.68780316407!2d30.252511957059642!3d50.4016990487754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1617629358138!5m2!1sru!2sua" width="100%" height="300px" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>
 					</div>
 				</section>
 			</main>
@@ -542,7 +542,7 @@ const Footer = () => {
 					<div className="row row-footer">
 						<div className="col-xs-12 col-s-auto">
 							<div className="footer__item">
-								<a href="#" className="site-logo">
+								<a href="/" className="site-logo">{null}
 									<img src={logo} alt="logo" className="img-fluid"/>
 								</a>
 							</div>
@@ -564,13 +564,13 @@ const Footer = () => {
 									</div>
 								</div>
 								<div className=" social-links col-xs-12 col-md-auto pr-md">
-									<a href="#" className="social-link">
+									<a href="/" className="social-link">
 										<i className="fa fa-twitter footer-fa"></i>
 									</a>
-									<a href="#" className="social-link">
+									<a href="/" className="social-link">
 										<i className="fa fa-facebook footer-fa"></i>
 									</a>
-									<a href="#" className="social-link">
+									<a href="/" className="social-link">
 										<i className="fa fa-linkedin-square footer-fa"></i>
 									</a>
 								</div>
@@ -583,7 +583,7 @@ const Footer = () => {
 									<div className="input-wrp">
 										<input type="text" name="s" className="textfield" placeholder="Your E-mail"/>
 									</div>
-									<button className="custom-btn custom-btn--medium subscribe-btn hover" type="submit" role="button">subscribe</button>
+									<button className="custom-btn custom-btn--medium subscribe-btn hover" type="submit">subscribe</button>
 								</form>
 							</div>
 						</div>
@@ -594,22 +594,22 @@ const Footer = () => {
 								<nav className="footer__navigation text-md-right">
 									<ul>
 										<li className="active">
-											<a href="#">Home</a>
+											<a href="/">Home</a>
 										</li>
 										<li>
-											<a href="#">About</a>
+											<a href="/">About</a>
 										</li>
 										<li>
-											<a href="#">Pages</a>
+											<a href="/">Pages</a>
 										</li>
 										<li>
-											<a href="#">Gallery</a>
+											<a href="/">Gallery</a>
 										</li>
 										<li>
-											<a href="#">Blog</a>
+											<a href="/">Blog</a>
 										</li>
 										<li>
-											<a href="#">Contacts</a>
+											<a href="/">Contacts</a>
 										</li>
 									</ul>
 								</nav>
