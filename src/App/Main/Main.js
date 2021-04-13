@@ -1,7 +1,5 @@
 import React from 'react'
 
-import "./common/style/images"
-
 const Main = () => {
 	return (
 			<main className="main">

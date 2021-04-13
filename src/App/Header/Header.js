@@ -7,7 +7,7 @@ const Header = () => {
 					<div className="row header-row">
 						<div className="logo col-xs-6 col-md-2">
 							<a href="/" className="logo-link">
-								<img src={logo} alt="logo" className="img-fluid"/>
+								<img src="images/logo.png" alt="logo" className="img-fluid"/>
 							</a>
 						</div>
 						<div className="menu col-xs-6 col-md-8">

@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from ".common/style/images/logo.png";
 
 const Footer = () => {
 	return (
@@ -9,7 +8,7 @@ const Footer = () => {
 						<div className="col-xs-12 col-s-auto">
 							<div className="footer__item">
 								<a href="/" className="site-logo">{null}
-									<img src={logo} alt="logo" className="img-fluid"/>
+									<img src="images/logo.png" alt="logo" className="img-fluid"/>
 								</a>
 							</div>
 						</div>
