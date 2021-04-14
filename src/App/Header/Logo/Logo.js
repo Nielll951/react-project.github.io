@@ -8,7 +8,7 @@ const Logo = () => {
             <a href="/" className="logo-link">
                 <img src={logo} alt="logo" className="img-fluid"/>
             </a>
-        </div>
+        </div> 
     )
 }
 
