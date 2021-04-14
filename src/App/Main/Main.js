@@ -189,8 +189,8 @@ const Main = () => {
 											<div className="__intro-text">
 												<div className="row ___intro-text-row">
 													<div className="col-sm-11">
-														<h2>
-															agro
+														<h2 className="_title">
+															Agro&nbsp;
 															<span>products</span>
 														</h2>
 														<p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looksreasonable. The generated Lorem Ipsum is therefore always free from repetition injected humour, ornon-characteristic words etc.

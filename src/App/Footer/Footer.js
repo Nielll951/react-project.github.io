@@ -1,5 +1,7 @@
 import React from 'react'
 
+import logo from "../Header/Logo/logo.png"
+
 const Footer = () => {
 	return (
 			<footer className="footer">
@@ -8,7 +10,7 @@ const Footer = () => {
 						<div className="col-xs-12 col-s-auto">
 							<div className="footer__item">
 								<a href="/" className="site-logo">{null}
-									<img src="images/logo.png" alt="logo" className="img-fluid"/>
+									<img src={logo} alt="logo" className="img-fluid"/>
 								</a>
 							</div>
 						</div>
