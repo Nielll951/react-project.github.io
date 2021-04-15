@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProductListItem = () => {
+const ProductListItem = (props) => {
     return (
         <div className="product-list-item">
             <div className="post-item">
@@ -9,19 +9,19 @@ const ProductListItem = () => {
                 </div>
                 <div className="post-item-content">
                     <p className="category">
-                        <a href="/">ORGANIC FOOD/TIPS & GUIDES</a>
+                        <a href="/">{props.name}</a>
                     </p>
                     <h3 className="post-title">
-                        <a href="/">Tips for Ripening your Fruit</a>
+                        <a href="/">{props.title}</a>
                     </h3>
                     <p className="post-text">
-                        The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.
+                        {props.description}
                     </p>
                     <a className="custom-btn custom-btn--medium post-btn hover" href="/">Read more</a>
                 </div>
                 <span className="__date-post">
-                    <strong>07</strong>
-                    Nov
+                    <strong>{props.date}</strong>
+                    {props.month}
                 </span>
             </div>
         </div>
