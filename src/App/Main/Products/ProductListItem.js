@@ -1,6 +1,12 @@
 import React from 'react'
 
-const ProductListItem = (props) => {
+const ProductListItem = ({
+    name,
+    title,
+    description,
+    date,
+    month
+}) => {
     return (
         <div className="product-list-item">
             <div className="post-item">
@@ -9,19 +15,19 @@ const ProductListItem = (props) => {
                 </div>
                 <div className="post-item-content">
                     <p className="category">
-                        <a href="/">{props.name}</a>
+                        <a href="/">{name}</a>
                     </p>
                     <h3 className="post-title">
-                        <a href="/">{props.title}</a>
+                        <a href="/">{title}</a>
                     </h3>
                     <p className="post-text">
-                        {props.description}
+                        {description}
                     </p>
                     <a className="custom-btn custom-btn--medium post-btn hover" href="/">Read more</a>
                 </div>
                 <span className="__date-post">
-                    <strong>{props.date}</strong>
-                    {props.month}
+                    <strong>{date}</strong>
+                    {month}
                 </span>
             </div>
         </div>
