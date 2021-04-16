@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 const ProductListItem = ({
     name,
@@ -32,6 +33,18 @@ const ProductListItem = ({
             </div>
         </div>
     )
+}
+
+ProductListItem.propTypes = {
+    name:PropTypes.string.isRequired,
+    title:PropTypes.string.isRequired,
+    description:PropTypes.string,
+    date:PropTypes.number.isRequired,
+    month:PropTypes.string.isRequired,
+}
+
+ProductListItem.defaultProps = {
+    description:"No description..."
 }
 
 export default ProductListItem
