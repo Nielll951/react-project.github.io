@@ -23,7 +23,8 @@ const ProductList = () => {
                                 title,
                                 description,
                                 date,
-                                month
+                                month,
+                                image
                             }) => (
                                 <ProductListItem
                                     key={id}
@@ -32,6 +33,7 @@ const ProductList = () => {
                                     description={description}
                                     date={date}
                                     month={month}
+                                    image={image}
                                 />
                             ))
                         }   

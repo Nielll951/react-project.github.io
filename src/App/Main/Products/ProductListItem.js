@@ -6,13 +6,14 @@ const ProductListItem = ({
     title,
     description,
     date,
-    month
+    month,
+    image,
 }) => {
     return (
         <div className="product-list-item">
             <div className="post-item">
                 <div className="post-item-image-block">
-                    <img src="images/post1.jpg" alt="post-img" className="post-item-img"/>
+                    <img src={image} alt="post-img" className="post-item-img"/>
                 </div>
                 <div className="post-item-content">
                     <p className="category">
@@ -44,7 +45,8 @@ ProductListItem.propTypes = {
 }
 
 ProductListItem.defaultProps = {
-    description:"No description..."
+    description:"No description...",
+    image:"/ProductsImages/no-image.jpg"
 }
 
 export default ProductListItem

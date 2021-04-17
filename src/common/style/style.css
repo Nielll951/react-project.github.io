@@ -1009,6 +1009,8 @@ address a {
 
 .post-row {
     display: grid;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
