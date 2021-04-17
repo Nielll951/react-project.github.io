@@ -1,6 +1,29 @@
 import React from 'react'
-import logo from "../Header/Logo/logo.png"
 import ProductList from "./Products/ProductList"
+
+import logo from "../Header/Logo/logo.png"
+import service1 from "./imagesMain/service1.png"
+import service2 from "./imagesMain/service2.png"
+import service3 from "./imagesMain/service3.png"
+import service4 from "./imagesMain/service4.png"
+import service5 from "./imagesMain/service5.png"
+import service6 from "./imagesMain/service6.png"
+import aboutWheat from "./imagesMain/about-wheat.png"
+import ico_count_1 from "./imagesMain/ico_count_1.png"
+import ico_count_2 from "./imagesMain/ico_count_2.png"
+import ico_count_3 from "./imagesMain/ico_count_3.png"
+import ico_count_4 from "./imagesMain/ico_count_4.png"
+import img_world_map from "./imagesMain/img_world_map.png"
+import product1 from "./imagesMain/product1.jpg"
+import product2 from "./imagesMain/product2.jpg"
+import product3 from "./imagesMain/product3.jpg"
+import product4 from "./imagesMain/product4.jpg"
+import product5 from "./imagesMain/product5.jpg"
+import product6 from "./imagesMain/product6.jpg"
+import label1 from "./imagesMain/label1.jpg"
+import label2 from "./imagesMain/label2.jpg"
+import label3 from "./imagesMain/label3.jpg"
+import label4 from "./imagesMain/label4.jpg"
 
 const Main = () => {
 	return (
@@ -36,27 +59,27 @@ const Main = () => {
 						</div>
 						<div className="row services-row">
 							<div className="services-item col-xs-6 col-sm-4 col-md-2">
-								<img src="images/service1.png" className="service-img" alt="service-img"/>
+								<img src={service1} className="service-img" alt="service-img"/>
 								<h5 className="title__h5">Farm Livestock</h5>
 							</div>
 							<div className="services-item col-xs-6 col-sm-4 col-md-2">
-								<img src="images/service2.png" className="service-img" alt="service-img"/>
+								<img src={service2} className="service-img" alt="service-img"/>
 								<h5 className="title__h5">Garden Tillage</h5>                    
 							</div>
 							<div className="services-item col-xs-6 col-sm-4 col-md-2">
-								<img src="images/service3.png" className="service-img" alt="service-img"/>
+								<img src={service3} className="service-img" alt="service-img"/>
 								<h5 className="title__h5">Fresh Fruits</h5>                    
 							</div>
 							<div className="services-item col-xs-6 col-sm-4 col-md-2">
-								<img src="images/service4.png" className="service-img" alt="service-img"/>
+								<img src={service4} className="service-img" alt="service-img"/>
 								<h5 className="title__h5">Vegetables</h5>                    
 							</div>
 							<div className="services-item col-xs-6 col-sm-4 col-md-2">
-								<img src="images/service5.png" className="service-img" alt="service-img"/>
+								<img src={service5} className="service-img" alt="service-img"/>
 								<h5 className="title__h5">Awesome Wheats</h5>                    
 							</div>
 							<div className="services-item col-xs-6 col-sm-4 col-md-2">
-								<img src="images/service6.png" className="service-img" alt="service-img"/>
+								<img src={service6} className="service-img" alt="service-img"/>
 								<h5 className="title__h5">Agro Machinery</h5>   
 			                </div>
 						</div>
@@ -85,7 +108,7 @@ const Main = () => {
 								</div>
 							</div>
 							<div className="col-xs-12 col-sm-12 col-md-4">
-								<img src="images/about-weat.png" alt="about-img" className="about__img"/>
+								<img src={aboutWheat} alt="about-img" className="about__img"/>
 							</div>
 							<div className="col-xs-12 col-sm-12 col-md-4 col-about__text">
 								<div className="about__text">
@@ -108,7 +131,7 @@ const Main = () => {
 											<div className="d-table">
 												<div className="d-table-cell align-middle">
 													<div className="__ico">
-														<img className="img-fluid" src="images/ico_count_1.png" alt="products"/>
+														<img className="img-fluid" src={ico_count_1} alt="products"/>
 													</div>
 												</div>
 												<div className="d-table-cell align-middle">
@@ -123,7 +146,7 @@ const Main = () => {
 											<div className="d-table">
 												<div className="d-table-cell align-middle">
 													<div className="__ico">
-														<img className="img-fluid" src="images/ico_count_2.png" alt="products"/>
+														<img className="img-fluid" src={ico_count_2} alt="products"/>
 													</div>
 												</div>
 												<div className="d-table-cell align-middle">
@@ -138,7 +161,7 @@ const Main = () => {
 											<div className="d-table">
 												<div className="d-table-cell align-middle">
 													<div className="__ico">
-														<img className="img-fluid" src="images/ico_count_3.png" alt="products"/>
+														<img className="img-fluid" src={ico_count_3} alt="products"/>
 													</div>
 												</div>
 												<div className="d-table-cell align-middle">
@@ -153,7 +176,7 @@ const Main = () => {
 											<div className="d-table">
 												<div className="d-table-cell align-middle">
 													<div className="__ico">
-														<img className="img-fluid" src="images/ico_count_4.png" alt="products"/>
+														<img className="img-fluid" src={ico_count_4} alt="products"/>
 													</div>
 												</div>
 												<div className="d-table-cell align-middle">
@@ -177,7 +200,7 @@ const Main = () => {
 							<p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
 						</div> 
 						<div>
-							<img src="images/img_world_map.png" alt="map" className="img-fluid"/>
+							<img src={img_world_map} alt="map" className="img-fluid"/>
 						</div>
 					</div>
 				</section> 
@@ -208,7 +231,7 @@ const Main = () => {
 									<div className="col-xs-12 col-sm-5 col-md-5 col-lg-3">
 										<div className="__item">
 											<figure className="__image">
-												<img src="images/product1.jpg" alt="product"/>
+												<img src={product1} alt="product"/>
 											</figure>
 											<div className="__content">
 												<h3 className="__title">fruits</h3>
@@ -219,7 +242,7 @@ const Main = () => {
 									<div className="col-xs-12 col-sm-4 col-md-4 col-lg-3">
 										<div className="__item">
 											<figure className="__image">
-												<img src="images/product2.jpg" alt="product"/>
+												<img src={product2} alt="product"/>
 											</figure>
 											<div className="__content">
 												<h3 className="__title">vegetables</h3>
@@ -230,7 +253,7 @@ const Main = () => {
 									<div className="col-xs-12 col-sm-4 col-md-4 col-lg-3">
 										<div className="__item">
 											<figure className="__image">
-												<img src="images/product3.jpg" alt="product"/>
+												<img src={product3} alt="product"/>
 											</figure>
 											<div className="__content">
 												<h3 className="__title">livestock</h3>
@@ -241,7 +264,7 @@ const Main = () => {
 									<div className="col-xs-12 col-sm-4 col-md-4 col-lg-3">
 										<div className="__item">
 											<figure className="__image">
-												<img src="images/product4.jpg" alt="product"/>
+												<img src={product4} alt="product"/>
 											</figure>
 											<div className="__content">
 												<h3 className="__title">sunflowers</h3>
@@ -264,7 +287,7 @@ const Main = () => {
 									<div className="col-xs-12 col-sm-7 col-md-7 col-lg-6 offset-lg-3">
 										<div className="__item">
 											<figure className="__image">
-												<img src="images/product5.jpg" alt="product"/>
+												<img src={product5} alt="product"/>
 											</figure>
 											<div className="__content">
 												<h3 className="__title">wheat</h3>
@@ -275,7 +298,7 @@ const Main = () => {
 									<div className="col-xs-12 col-sm-5 col-md-5 col-lg-3">
 										<div className="__item">
 											<figure className="__image">
-												<img src="images/product6.jpg" alt="product"/>
+												<img src={product6} alt="product"/>
 											</figure>
 											<div className="__content">
 												<h3 className="__title">spices</h3>
@@ -342,22 +365,22 @@ const Main = () => {
 						<div className="row row-labels">
 							<div className="col-xs-12 col-s-6 col-md-3">
 								<div className="label-item">
-									<img className="label-img" src="images/label1.jpg" alt="label"/>
+									<img className="label-img" src={label1} alt="label"/>
 								</div>
 							</div>
 							<div className="col-xs-12 col-s-6 col-md-3">
 								<div className="label-item">
-									<img className="label-img" src="images/label2.jpg" alt="label"/>
+									<img className="label-img" src={label2} alt="label"/>
 								</div>
 							</div>
 							<div className="col-xs-12 col-s-6 col-md-3">
 								<div className="label-item">
-									<img className="label-img" src="images/label3.jpg" alt="label"/>
+									<img className="label-img" src={label3} alt="label"/>
 								</div>
 							</div>
 							<div className="col-xs-12 col-s-6 col-md-3">
 								<div className="label-item">
-									<img className="label-img" src="images/label4.jpg" alt="label"/>
+									<img className="label-img" src={label4} alt="label"/>
 								</div>
 							</div>
 						</div>

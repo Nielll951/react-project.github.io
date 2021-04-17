@@ -7,7 +7,7 @@ const ProductList = () => {
         <>
             <section className="post section section--no-pb">
                 <div className="container">
-                    <div className="row">
+                    <div className="row row-plr-15">
                         <div className="section-heading section-heading--center">
                             <h2 className="__title">Blog
                                 <span>Posts</span>

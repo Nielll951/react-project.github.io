@@ -1013,6 +1013,11 @@ address a {
     padding-right: 15px;
 }
 
+.row-plr-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 
 @media (min-width: 576px) {
     .name {

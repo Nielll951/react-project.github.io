@@ -6,7 +6,7 @@ const products = [
         description:"Cabbage (comprising several cultivars of Brassica oleracea) is a leafy green, red (purple), or white (pale green) biennial plant",
         date:17,
         month:"Nov",
-        // image:"/ProductsImages/post1.png",
+        image:"/ProductsImages/post1.jpg",
     },
     {
         id:2,
