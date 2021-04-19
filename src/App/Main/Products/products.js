@@ -1,7 +1,7 @@
 const products = [
     {
         id:1,
-        name:"ORGANIC CABBAGE/TIPS & GUIDES",
+        name:"ORGANIC CABBAGES/TIPS & GUIDES",
         title:"Tips for Ripening your Fruit",
         description:"Cabbage (comprising several cultivars of Brassica oleracea) is a leafy green, red (purple), or white (pale green) biennial plant",
         date:17,
