@@ -13,7 +13,7 @@ const ProductListItem = ({
         <div className="product-list-item">
             <div className="post-item">
                 <div className="post-item-image-block">
-                    <img src={image} alt="post-img" className="post-item-img"/>
+                    <img src={image} alt="post-img" className="post-item-img add-height"/>
                 </div>
                 <div className="post-item-content">
                     <p className="category">
