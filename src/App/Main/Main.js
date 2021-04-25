@@ -30,6 +30,7 @@ import BlogPage from './BlogPage/BlogPage'
 import GalleryPage from './GalleryPage/GalleryPage'
 import ContactsPage from './ContactsPage/ContactsPage'
 import Slider from './Slider/Slider'
+import ProductPage from './ProductPage/ProductPage'
 
 const Main = () => {
 	return (
@@ -416,6 +417,7 @@ const Main = () => {
 			<Route path="/blog" component={BlogPage}/>
 			<Route path="/gallery" component={GalleryPage}/>
 			<Route path="/contacts" component={ContactsPage}/>
+			<Route path="/products/:id" component={ProductPage}/>
 		</main>
 	)
 }

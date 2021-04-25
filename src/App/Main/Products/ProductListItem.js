@@ -1,8 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const ProductListItem = ({
     name,
+    id,
     title,
     description,
     date,
@@ -17,7 +19,7 @@ const ProductListItem = ({
                 </div>
                 <div className="post-item-content">
                     <p className="category">
-                        <a href="/">{name}</a>
+                        <Link to={`/products/${id}`}>{name}</Link>
                     </p>
                     <h3 className="post-title">
                         <a href="/">{title}</a>
